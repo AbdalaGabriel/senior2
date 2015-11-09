@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    font-weight: 100;
+}
+
+.reset{
+  margin: 0;
+    padding: 0;  
+}
+
+.page{
+    height: 100vh;
+    background: white;
+      padding: 1em;
+}
+
+
+
+
+.menu{
+	
+    width: calc(100% - 2em);
+    height: calc(100% - 2em);
+    position: absolute;
+    z-index: 20;
+        background-color: rgba(26, 15, 64,0.8);
+    top: 1em;
+    left: 1em;
+    opacity: 0;
+    display: none;
+}
+
+.menu ul {list-style-type: none;}
+
+.menu ul li{
+
+	  margin: 1em;
+
+}
+.menu ul li a{
+	 
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size: 3em;
+  
+
+}
+
+.menu ul li a:hover{
+	    color: #17EC76;
+	}
+
+
+.menuTrigger{
+	
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    width: 3em;
+    height: 2em;
+    text-decoration: none;
+    background-color: #1A1642;
+    line-height: 2em;
+    text-align: center;
+    padding: .5em;
+    z-index: 1000;
+}
+
+.menuTrigger a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-family: arial;
+
+}
+
+header{
+ padding: 0 1em;
+    z-index: 10;
+    background-color: #16093E;
+    overflow: hidden;
+
+}
+
+#mainPage{
+    background: #251656;
+
+}
+
+.logo{
+        font-family: Raleway;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.goDown{
+      text-align: center;
+    color: white;
+    font-family: raleway;
+    font-variant: normal;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      width: 8em;
+      margin: 2em auto;
+}
+
+.mainTitle{
+        text-align: center;
+    color: white;
+    font-family: raleway;
+    font-variant: normal;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 25em 0 0 0;
+}
+
+.seccionInside{
+    padding: 1em;
+}
+
+.seccionInside h2{
+    text-align: center;
+}
+
+footer{
+    background: black;
+
+}

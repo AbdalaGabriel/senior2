@@ -1,0 +1,317 @@
+body{
+	margin: 0;
+	padding: 0;
+
+
+}
+
+input{
+	background: none;
+	color: white
+}
+
+
+
+.popup{
+	display: block;
+	width: 50%;
+	margin: 0 25%;
+	position: absolute;
+	height: 50vh;
+	
+	top: 25vh;
+	background: white;
+	text-align: center;
+
+}
+
+.popWp{
+	display: none;
+	    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    background: rgba(8, 6, 33, 0.79);
+    height: 100vh;
+    top: 0;
+
+}
+
+
+/*ADMIN*/
+
+.wpLogin{
+	background:url("../img/bgAdmin.jpg");
+	height: 70vh;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	padding-top: 30vh;
+}
+
+.formWp{
+     width: 25em;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.4);
+    padding: 2em;
+    height: 30vh;
+    position: relative;
+   
+}
+
+.formWp form label{
+        display: block;
+    text-align: left;
+    padding: .5em 1em;
+    font-family: Raleway;
+    color: white;
+    background: rgba(255,255,255,0.2);
+    margin-bottom: 1em;
+    border-radius: 2em;
+    float: left;
+}
+
+.formWp form input {
+
+    background: none;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: antiquewhite;
+    padding: .5em 0;
+	border: none;
+    border-radius: 2em;
+    text-align: center;
+    margin: 1em 0 00;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    background:rgba(255,255,255,0) !important;
+}
+
+.etiqueta{
+	    background-color: rgba(255,255,255,0.1) !important;
+    margin: 0 0 2em !important;
+    padding: 1em 0 !important;
+}
+
+.formWp form input.submit{
+	    background: #6DD4C8;
+    border: none;
+    color: white;
+    margin: 2em 0 0 0;
+    padding: 1em;
+    max-width: 14em;
+    margin: 3em auto;
+    cursor: pointer;
+}
+
+/*BLUR*/
+
+
+.color{
+   display: block;
+    position: absolute;
+    width: 110%;
+    height: 150px;
+    top: -1em;
+    left: -1em;
+    height: 110%;
+    z-index: 0;
+}
+
+#effect{
+
+   width: 100%;
+    height: 100%;
+    background:url("../img/bgAdmin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:block;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+    opacity: 0.95;
+}
+
+
+
+
+#form_pro{
+    position: absolute;
+    z-index: 1;
+    width: calc(100% - 4em);
+    height: calc(100% - 4em);
+    top: 0;
+    left: 0;
+    padding: 2em;
+        background: rgba(159, 224, 255, 0.2);
+
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background: none !important;
+    background-image: none;
+    color: rgb(0, 0, 0);
+}
+
+/*BE MENU*/
+
+
+.lateralMenu{
+	float: left;
+	 width: 15em;
+     height: 100vh;
+    margin: 0;
+    padding: 1em;
+    background: aliceblue;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.overLay{
+	background: rgba(0, 173, 255, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    z-index: 1;
+}
+
+.menuWp{
+	
+	position: relative;
+    z-index: 3;
+    color: white;
+    font-family: raleway;
+}
+
+.menuWp h1{
+ text-align: center;
+ font-weight: 100;
+}
+
+.menuWp nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.menuWp nav ul li{
+	list-style-type: none;
+}
+.menuWp nav ul li a{
+	    display: block;
+    text-decoration: none;
+    padding: .5em 1.5em;
+    text-align: left;
+    color: #E9F8FF;
+    font-family: raleway;
+    background: rgba(240,248,255,0.2);
+    margin: .5em 0;
+    border-radius: 2em;
+    text-transform: capitalize;
+}
+
+.menuWp nav ul li a:hover{
+	opacity: .5;
+}
+
+
+.contentWp {
+    background: #EFF3FF;
+     height: 100vh;
+    padding: 1em;
+    float: left;
+        width: calc(100% - 15em);
+    /* padding: 1em; */
+}
+
+.content{
+	background: white;
+	    padding: 1em;
+	    overflow: hidden;
+}
+
+.content .titlePageWp a{
+	
+    text-decoration: none;
+    color: #69698E;
+    font-weight: bold;
+    font-family: Arial;
+    display: block;
+}
+
+
+.content .titlePageWp, .beTable {
+	    margin: 0 0 1em 0;
+    padding: 1em;
+    background: #F6F8FF;
+}
+
+.editPageWp a , .deletePageWp a{
+
+	    display: block;
+    float: right;
+    text-decoration: none;
+    color: #A7A7A7;
+    /* background: #90BBCC; */
+    color: #F3AA00;
+    padding: 0 .6em;
+    border: 1px solid;
+    border-radius: 1em;
+
+}
+
+h1{
+	    font-size: 2em;
+    font-family: raleway;
+    font-weight: 100;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+
+/*MEDIA*/
+
+#subirCon{
+	    color: #0994CA;
+    border: 1px solid;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.archivos{
+	margin: 2em 1em;
+}
+
+.archivos img{
+	max-width: 10em;
+}
+
+.mediaWp{
+    max-height: 15em;
+    height: 15em;
+    /* padding: 8em; */
+    background-size: cover !important;
+    position: relative;
+    margin: .5em;
+
+}
+
+.mediaWp a {
+    background: white;
+    display: block;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    text-decoration: none;
+    color: #09A1D8;
+    padding: .5em 1em;
+    border-radius: 2em;
+}
